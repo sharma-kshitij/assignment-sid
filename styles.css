@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #000;
+    text-align: center;
 }
 
 html{
@@ -109,6 +110,8 @@ h1{
     margin-bottom: 10rem;
 }
 
+
+
 .box{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -128,6 +131,7 @@ h1{
 .description{
     color: #929FC5;
     margin-bottom: 2.5rem;
+    padding-bottom: 3rem;
 }
 
 .footer-img{
@@ -139,9 +143,19 @@ h1{
     max-width: 250px;
 }
 
+.feature-img{
+    max-width: 250px;
+    margin: 20px;
+}
 
-
-
+.sub{
+    border: solid;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    background-color: #01abdd;
+    border-color: #01abdd;
+}
 
 @media only screen and (max-width: 768px) {
     .content{
@@ -164,5 +178,14 @@ h1{
     .description{
         color: #929FC5;
         margin-bottom: 3rem;
+    }
+    .hero-image{
+        margin: 30px;
+    }
+    .tv{
+        margin: 30px;
+    }
+    .img-last{
+        margin-top: 10rem;
     }
 }
